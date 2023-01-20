@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8"/>
+    <title>Règles du Barbu</title>
+    <link href="styles/index.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="lien-icone">
+                <img src="images/logo.svg" alt="logo acceuil"/>
+            </a>
+            <div>
+                <a href="dutch.html">Dutch /</a>
+                <a href="barbu.html">Barbu /</a>
+                <a href="kilo-de-merde.html">Kilo de merde/</a>
+                <a href="president.html">Président</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <h2>Règles du jeu du Barbu</h2>
+            <p>
+                Ce jeu se joue entre 3 et 6 joueurs en 7 manches et une réussite. On additionne les points à la fin de chaque manche.<br>
+                On joue avec un jeu de cartes.
+                On enleve les jokers et les petites cartes (2,3) de façon à que chaque joueur puisse avoir le même nombre de  cartes.
+            </p>
+        </section>
+        <section class="deroulement">
+            <h3>Déroulement d'un tour</h3>
+            <ol>
+                <li>Le joueur ayant remporté le pli précédent commence</li>
+                <li>Le joueur pose une de ses cartes sur le centre de la table</li>
+                <li>Le joueur à sa gauche doit poser une carte de même symbole, qu'importe la valeur dessus ou une carte quelconque si et seulement si il ne possède pas de carte du signe</li>
+                <li>On continue jusqu'à que chaque joueur ait posé une carte</li>
+                <li>Le joeur ayant posé la carte du signe de valeur la plus haute (l'As est au dessus du Roi) remporte le pli</li>
+            </ol>
+            <h3>Déroulement d'une manche</h3>
+            <ol>
+                <li>Toutes les cartes sont distribuées</li>
+                <li>Le joueur ayant la Dame de ceour dans son jeu commence</li>
+                <li>On joue jusqu'à que toutes les cartes soient posées</li>
+                <li>On compte les points remportés par chaque joueur</li>
+                <li>Le joueur à gauche du joueur ayant distribué à la manche précédente distribue</li>
+            </ol>
+            <br>
+        </section>
+        <section class="manches">
+            <p>Liste des manches : </p>
+            <table>
+                <tr>
+                    <th>Nom de la manche</th>
+                    <th>But de la manche</th>
+                </tr>
+                <tr>
+                    <td>Pas de pli</td>
+                    <td>Chaque pli vaut 5 points</td>
+                </tr>
+                <tr>
+                    <td>Pas de coeur</td>
+                    <td>Chaque carte coeur vaut 10 points. Le prmier ne tour ne peut commencer au signe coeur</td>
+                </tr>
+                <tr>
+                    <td>Pas de dames</td>
+                    <td>Chaque carte dame vaut 25 points. Si un joueur à toutes les dames, les dames ne valent plus rien.</td>
+                </tr>
+                <tr>
+                    <td>Pas de Roi de coeur (le Barbu)</td>
+                    <td>La carte Roi de coeur vaut 50 points</td>
+                </tr>
+                <tr>
+                    <td>Pas de dernier pli</td>
+                    <td>Le dernier pli vaut 30 points</td>
+                </tr>
+                <tr>
+                    <td>Salade</td>
+                    <td>Toutes les règles précédentes s'additionnent</td>
+                </tr>
+                <tr>
+                    <td>Réussite</td>
+                    <td>
+                        La réussite permet de baisser considérablement les scores finaux. <br>
+                        Le joueur commençant choisi si l'As est en haut ou en bas (si il est avant le 2/3 ou après le roi) puis il pose une carte de son choix au centre de la table.<br>
+                        Les joueurs suivants ne peuvent poser que des cartes de valeurs n-1 ou n+1 à la suite des cartes déjà poséées ou de la même valeur que la première posée, à coté.<br>
+                        Si un joueur peut jouer, il y est obligé mais il peut poser le nombre de cartes qu'il souhaite.<br>
+                        Le premier joueur ayant posé toutes ses cartes retirera -3/4(score maximal) à ses points, le suivant retirera la moitié de ce qu'a retiré le joueur précédent et ainsi de suite.<br>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <section class="comptage_points">
+            <p>On compte les points à la fin de chaque manche, en les additionnat à ceux gagnés avant :</p>
+            <table>
+                <tr>
+                    <th>Manche</th>
+                    <th>Points</th>
+                    <th>Joueur 1</th>
+                    <th>Joueur 2</th>
+                    <th>Joueur 4</th>
+                    <th>...</th>
+                </tr>
+                <tr>
+                    <td>Pas de plis</td>
+                    <td>+5pts<br>par pli</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Pas de coeur</td>
+                    <td>+10pts<br>par coeur</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Pas de Dames</td>
+                    <td>+25pts<br>par Dame (rien si 4)</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Pas de Roi de coeur</td>
+                    <td>+50pts</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Pas de denier pli</td>
+                    <td>+30<br>pour le dernier pli</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Salade</td>
+                    <td>Toute les règles précédentes</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Réussite</td>
+                    <td>1° : -3/4(score max)<br>2° : -1/2 d'avant<br>ect...</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th>Totaux : </th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th>...</th>
+                </tr>
+            </table>
+        </section>
+    </main>
+</body>
+</html>

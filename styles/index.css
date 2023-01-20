@@ -1,5 +1,5 @@
 .lien-icone{
-    margin:10px;
+    margin:1px;
 }
 .lien-icone:hover{
     opacity: 0,2;
@@ -19,11 +19,11 @@ nav{
 }
 
 a{
-    color: #781fd1b2;
+    color: #edddfe;
     text-decoration: none;
 }
 a:hover{
-    color: #5f18a6;
+    color: #79549e;
     text-decoration: underline;
 }
 body{
@@ -75,17 +75,38 @@ p{
     font-size: 1em;
     border-radius: 5px 5px 5px 5px;
 }
-
+.preparation{
+    background-color:#a5b4fc6f;
+    justify-content: space-around;
+    font-size: 1em;
+    border-radius: 5px 5px 5px 5px;
+}
 table{
     border-collapse: collapse;
+    border-color: #1f2039;
 }
 
 td,th{
-    border: 1px whitesmoke;
+    border: black;
+    color:beige;
     padding : 10px;
 }
 
 .points{
+    background-color:#a5b4fc6f;
+    justify-content: space-around;
+    font-size: 1em;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.manches{
+    background-color:#a5b4fc6f;
+    justify-content: space-around;
+    font-size: 1em;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.comptage_points{
     background-color:#a5b4fc6f;
     justify-content: space-around;
     font-size: 1em;
