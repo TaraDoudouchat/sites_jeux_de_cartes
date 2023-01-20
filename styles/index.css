@@ -1,0 +1,93 @@
+.lien-icone{
+    margin:10px;
+}
+.lien-icone:hover{
+    opacity: 0,2;
+}
+img{
+    width:10%;
+    min-width: 40px;
+}
+nav{
+    display: flex;
+    background-color: #c388ff;
+    justify-content: space-around;
+    font-size: 1em;
+    border-radius: 30px 30px 30px 30px;
+    color:whitesmoke;
+    position:sticky;
+}
+
+a{
+    color: #781fd1b2;
+    text-decoration: none;
+}
+a:hover{
+    color: #5f18a6;
+    text-decoration: underline;
+}
+body{
+    font-family: 'Manrope',sans-serif;
+    font-size: 1em;
+    background-color: #1f2039;
+}
+
+h1{
+    font-size:4em;
+    color:#a5b4fc;
+}
+
+h2{
+    font-size : 3em;
+    color:#a5b4fc;
+}
+
+h3{
+    font-size : 2em;
+    color:#a5b4fc;
+}
+
+li{
+    color:azure;
+}
+
+p{
+    color: azure;
+}
+
+.deroulement{
+    background-color:#a5b4fc6f;
+    justify-content: space-around;
+    font-size: 1em;
+    border-radius: 0px 20px 0px 20px;
+}
+
+.fin_manche{
+    background-color:#a5b4fc6f;
+    justify-content: space-around;
+    font-size: 1em;
+    border-radius: 0px 20px 0px 20px;
+}
+
+.cartes_speciales{
+    background-color:#a5b4fc6f;
+    justify-content: space-around;
+    font-size: 1em;
+    border-radius: 5px 5px 5px 5px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td,th{
+    border: 1px whitesmoke;
+    padding : 10px;
+}
+
+.points{
+    background-color:#a5b4fc6f;
+    justify-content: space-around;
+    font-size: 1em;
+    border-radius: 5px 5px 5px 5px;
+}

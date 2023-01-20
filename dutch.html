@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8"/>
+    <title>Acceuil - Règles de jeu de cartes</title>
+    <link href="styles/index.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="lien-icone">
+                <img src="images/logo.svg" alt="logo acceuil"/>
+            </a>
+            <div>
+                <a href="dutch.html">Dutch</a>
+                <a href="barbu.html">Barbu</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <div>
+                <h2>Règles du jeu du Dutch</h2>
+                <p>
+                    Ce jeu se joue entre 2 et 10 personnes avec 1 ou 2 (à partir de 5 joueurs) jeux de cartes sans les jokers.
+                </p>
+                <p>
+                    Une partie dure en moyenne 30min, jusqu'à qu'un joueur atteinge ou dépasse les 100 points</p>
+                <p>
+                    Le but final du jeu est d'avoir le moins de points possibles.
+                </p>
+            </div>
+        </section>
+        <section class="deroulement">
+            <h3>Déroulement d'un tour : </h3>
+            <ol>
+                <li>Chaque joueur reçoit 4 cartes face cachée, le reste des cartes est placé dans une pile au centre de la table</li>
+                <li>Chaque joueur place ses cartes en carré devant lui et regarde 2 de ses cartes avant de les reposer</li>
+                <li>Le joueur le plus jeune ou celui qui a gagné le tour précédent commence, c'est à dire peut échanger une carte</li>
+                <li><ul>
+                    <li>Si le joueur veut échanger une carte avec la pioche, il prend la carte sur le dessus, la regarde, la mets dans son jeu et pose l'autre carte sur la pile de rejet à côté, face visible</li>
+                    <li>Si le joueur veut échanger une carte avec la pioche de rejet, il prend la carte sur le dessus, la regarde, la mets dans son jeu et pose l'autre carte sur la pile de rejet à côté, face visible</li>
+                </ul></li>
+                <li>Si la carte posée sur le dessus de la pioche de rejet à un "pouvoir", le joueur peut l'utiliser jusqu'à qu'une autre carte soit posée</li>
+                <li>Si un joueur possède une carte similaire, il peut la poser sans avoir à en piocher une et utiliser leur "pouvoir" à la suite du premier joueur</li>
+                <li>Si un joueur sait qu'un autre joueur possède une carte similaire, il peut la poser sur la pioche de rejet et donner une de ses cartes au joueur, sans qu'il puisse voir son contenu</li>
+                <li>Si un joueur a fait une erreur : 
+                    <ul>
+                        <li>toucher la pioche sans raison;</li>
+                        <li>poser une carte de mauvaise valeur;</li>
+                        <li>toucher ses propres cartes;</li>
+                        <li>etc,...</li>
+                    </ul>
+                </li>
+                <li>C'est au tour du joueur suivant dans le sens horaire</li>
+            </ol>
+            <br>
+        </section>
+        <section class="cartes_speciales">
+            <p>Voici la liste des cartes spéciales et leur pouvoir</p>
+            <table>
+                <tr>
+                    <th>Carte</th>
+                    <th>Pouvoir</th>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Permet de regarder une de ses cartes</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Permet de regarder une carte d'un autre joueur</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Permet de choisir une carte d'un autre joueur et l'une des siennes et de les échanger si l'in veut</td>
+                </tr>
+                <tr>
+                    <td>Dame</td>
+                    <td>Permet d'imposer à un autre joueur de mélanger ses cartes</td>
+                </tr>
+            </table>
+        </section>
+        <section class="fin_manche">
+            <h3>Fin d'une manche</h3>
+            <p>Une manche ne peut se terminer que d'une seule façon :</p>
+            <ol>
+                <li>Un joueur annonce Dutch à la fin de son tour</li>
+                <li>Chaque joueur joue une fois</li>
+                <li>Chaque joueur pose ses cartes face révélée</li>
+                <li>Les points de chaque joueur sont comptés</li>
+            </ol>
+            <br>
+        </section>
+        <section class="points">
+            <p>On compte les points à la fin de chaque tour, en les additionnant à ceux gagnés avant</p>
+            <table>
+                <tr>
+                    <th>Carte</th>
+                    <th> </th>
+                    <th>Valeur</th>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><img src="images/2_de_pique.png" alt="2 de pique"></td>
+                    <td>+2pts</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><img src="images/3_de_carreau.png" alt="3 de carreau"></td>
+                    <td>+3pts</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><img src="images/4_de_trefle.png" alt="4 de trèfle"></td>
+                    <td>+4pts</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><img src="images/5_de_coeur.png" alt="5 de coeur"></td>
+                    <td>+5pts</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td><img src="images/6_de_pique.png" alt="6 de pique"></td>
+                    <td>+6pts</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td><img src="images/7_de_carreau.png" alt="7 de carreau"></td>
+                    <td>+7pts</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td><img src="images/8_de_trefle.png" alt="8 de trèfle"></td>
+                    <td>+8pts</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td><img src="images/9_de_carreau.png" alt="9 de carreau"></td>
+                    <td>+9pts</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td><img src="images/10_de_trefle.png" alt="10 de trèfle"></td>
+                    <td>+10pts</td>
+                </tr>
+                <tr>
+                    <td>Valet</td>
+                    <td><img src="images/Valet_de_coeur.png" alt="Valet de coeur"></td>
+                    <td>+11pts</td>
+                </tr>
+                <tr>
+                    <td>Dame</td>
+                    <td><img src="images/Dame_de_trefle.png" alt="Dame de trèfle"></td>
+                    <td>+12pts</td>
+                </tr>
+                <tr>
+                    <td>Roi</td>
+                    <td><img src="images/Roi_de_carreau.png" alt="Roi de carreau"></td>
+                    <td>-1pts</td>
+                </tr>
+                <tr>
+                    <td>As</td>
+                    <td><img src="images/As_de_pique.png" alt="As de pique"></td>
+                    <td>+15pts</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
